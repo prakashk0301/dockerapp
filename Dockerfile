@@ -6,3 +6,8 @@ USER admin
 COPY app /app
 WORKDIR /app
 CMD ["python", "app.py"] 
+
+
+
+#-m: user home directory creation
+#s: user login shell
